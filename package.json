@@ -1,15 +1,15 @@
 {
   "name": "dienstplan-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Dienstplan Backend API",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sandbox": "ampx sandbox",
+    "deploy": "ampx deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@aws-amplify/backend": "^1.18.0",
     "@aws-amplify/backend-cli": "^1.8.0",
